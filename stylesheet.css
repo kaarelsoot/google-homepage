@@ -12,7 +12,7 @@ body {
 	color: #666;
 	font-size: 13px;
 	margin-top: -15px;
-	margin-right: 10px
+	margin-right: 10px;
 }
 
 ul li {
@@ -34,3 +34,27 @@ ul li {
 	margin-left: 10px;
 }
 
+#logo {
+	text-align: center;
+	margin-top: 117px
+}
+
+#logo > img {
+	height: 95px;
+}
+
+#search {
+	text-align: center
+}
+
+.searchbar {
+	border: 1px #4285f4 solid;
+	width: 42%;
+	height: 24px;
+	margin-top: 20px;
+}
+
+#search > img {
+	display: inline-block;
+	text-align: center
+}
