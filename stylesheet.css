@@ -1,19 +1,36 @@
-.page {
-	position: relative;
-	height: 100%;
-	min-height: 500px;
+body {
+	background-color: white;
+	font-family: Arial, sans-serif;
+	margin: 0px;
 }
 
-.header {
-	position: absolute;
-	background-color: gray;
+.top {
+	text-align: right;
 	height: 60px;
-	min-width: 800px;
-	width: 100%;
-	right: 30px;
-
+	padding: 15px;
+	list-style: none;
+	color: #666;
+	font-size: 13px;
+	margin-top: -15px;
+	margin-right: 10px
 }
 
-ul, li {
-	display: inline;
+ul li {
+	display: inline-block;
+	list-style: none;
+	padding:10px;
 }
+
+.sign_in {
+	border-radius: 2px;
+	background-color: #4285f4;
+	color: white;
+	border: 0;
+	height: 30px;
+	width: 70px;
+	font: inherit;
+	font-weight: bold;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
